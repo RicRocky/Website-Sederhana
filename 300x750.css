@@ -1,0 +1,252 @@
+.pohon {
+    display:none;
+}
+
+
+body {
+    margin:0;
+    padding:0;
+    font-family:'Times New Roman', Times, serif;
+}
+
+    /* Header */
+    .header{
+        position:relative;
+        height:11.35px;
+    }
+
+    .tempat {
+        position:absolute;
+        display:flex;
+        flex-direction:row;
+        left:12px;
+        top:33px;
+    }
+
+    .logo {
+        font-family:Pacifico;
+        font-size:12px;
+        line-height:8px;
+        padding-right:37.84px;
+    }
+
+    .ma {
+        font-size:7px;
+        font-family:Artifika;
+    }
+
+    .home {
+        padding-right:39px;
+    }
+
+    .sumber {
+        padding-right:36px;
+    }
+
+    .instagram a {
+        color:black;
+        text-decoration:none;
+    }
+
+    /* Garis */
+    .garis_y {
+        position:absolute;
+        width:1px;
+        height:11.35px;
+        top:32.3px;
+    }
+    
+    .garis_1 {
+        left:71px;
+    }
+
+    .garis_2 {
+        left:131px
+    }
+
+    .garis_3 {
+        left:197px;
+    }
+    /* Garis */
+    /* Header */
+
+    /* Tampilan Pertama */
+    /* Gambar */
+    .bagian_awal {
+        position:relative;
+        background:#FDB0B9;
+        width:auto;
+        height:750px;
+        z-index:-2;
+    } 
+
+    .lala {
+        position:absolute;
+    }
+
+    .awan {
+        width:100%;
+        height:auto;
+        top:6px;
+    }
+
+    .pohon_mobile {
+        width:300px;
+        height:auto;
+        bottom:0;
+        right:0;
+    }
+
+    .tanah {
+        width:100%;
+        height:90px;
+        bottom:0;
+    }
+
+    .rumput {
+        width:136px;
+        height:auto;
+        bottom:0;
+    }
+
+    .rumput_kiri {
+        left:0;
+    }
+
+    .rumput_kanan {
+        right:0;
+    }
+    /* Gambar */
+    /* Isi */
+    .isi {
+        position:relative;
+        width:223px;
+        height:100px;
+        top:137px;
+        left:22px;
+    }
+
+    .sub_judul {
+        height:16px;
+        font-family:Bentham;
+        font-size:24px;
+    }
+
+    .judul {
+        padding:0;
+        margin:0;
+        font-size:48px;
+        font-family:Bentham;
+    }
+
+    .keterangan {
+        width: 13.3125rem;
+        height: 5.3125rem;
+        flex-shrink: 0;
+        color: #000;
+        font-family: Roboto;
+        font-size: 0.6875rem;
+        line-height: 133.49%; /* 0.91775rem */
+        letter-spacing: 0.00344rem;
+    }
+    /* Isi */
+    /* Tampilan Pertama */
+
+
+    /* Tampilan Kedua */
+    .tahapan_desain {
+        background-color:#FCFBCA;
+        width:auto;
+        height:750px;
+        text-align:center;
+        display:flex;
+        flex-direction:column;
+    }
+
+    .tahapan_desain_judul {
+        align-self:center;
+        font-family:'Times New Roman', Times, serif;
+        height:69px;
+        text-align:center;
+        padding-top:58px;
+        padding-bottom:29px;
+    }
+
+    .tahapan_desain_judul h1 {
+        width:270px;
+        margin:0;
+        height:32px;
+        font-family:Bentham;
+        font-size:27px;
+    }
+
+    .isi_penjelas {
+        width:270px;
+        font-size:10px;
+    }
+
+    .tahapan_0 {
+        display:flex;
+        width:auto;
+        height:594px;
+        background-color:#D5E6AC;
+        flex-direction:column;
+        justify-content:center;
+    }
+
+    .rel img {
+        width:165px;
+        box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.50);
+    }
+
+    .tahapan_1, .tahapan_2, .tahapan_3 {
+        text-align:center;
+        align-self:center; /* Ini gunanya bikin semua content yang ada 
+        dalam 1 container berada di tengah tapi semua isinya harus sudah
+        jelas nilai width nya */
+        font-family:'Times New Roman', Times, serif;
+    }
+
+    .tahapan_1_judul, .tahapan_2_judul, .tahapan_3_judul {
+        height:14.15px;
+        font-family:Yrsa;
+        font-size:13px;
+        padding-top:2px;
+        padding-bottom:3px;
+    }
+
+    .tahapan_0 .tahapan_1_penjelasan, .tahapan_0 .tahapan_2_penjelasan, .tahapan_0 .tahapan_3_penjelasan {
+        width:165px;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.1px;
+
+    }
+
+    .tahapan_1_penjelasan {
+        height: 70px;
+    }
+
+    .tahapan_2_penjelasan {
+        height:70px;
+    }
+
+    .tahapan_3_penjelasan {
+        height:70px;
+    }
+
+    /* Tampilan Kedua */
+
+    /* Footer */
+    .footer {
+        display:flex;
+        width:auto;
+        background-color:#1E1E1E;
+        justify-content:center;
+        color:white;
+        font-family:Artifika;
+        font-size:9px;
+    }
+    /* Footer */

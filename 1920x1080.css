@@ -1,0 +1,241 @@
+.pohon_mobile {
+    display:none;
+}
+
+body {
+    margin:0px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+    /* Header */
+    .header {
+        position:relative;
+        height:120px;
+    }
+
+    .tempat {
+        position:absolute;
+        display:flex;
+        flex-direction:row;
+        left:76px;
+        top: 120px;
+    }
+
+    .logo {
+        font-size:35px;
+        font-family: 'Pacifico', cursive;
+        padding-right:110px;
+        line-height:30px;
+    }
+
+    .ma {
+        font-size:25px;
+        font-family: 'Artifika', serif;
+        line-height:35px;
+    }
+
+    .home {
+        padding-right:100px;
+    }
+
+    .sumber{
+        padding-right:92px;
+    }
+
+    .sumber a {
+        text-decoration:none;
+        color:black;
+    }
+
+    .instagram a {
+        color:black;
+        text-decoration:none;
+    }
+
+    /* Header */
+
+    /* Garis Header */
+
+    .garis_y {
+        position:absolute;
+        width:2px;
+        height:39px;
+        top:118.5px;
+    }
+
+    .garis_1 {
+        left:251px;
+    }
+
+    .garis_2 {
+        left:437px;
+    }
+
+    .garis_3 {
+        left:627px;
+    }
+
+    /* Garis Header */
+    /* Header */
+
+    /* Bagian Tampilan Awal ( JUDUL ) */
+    .bagian_awal {
+        position:relative;
+        background:#FDB0B9;
+        width:auto;
+        height:1080px;
+        z-index:-2;
+    }
+
+    .lala {
+        position:absolute;
+    }
+
+    .awan {
+        width:100%;
+        height:auto;
+        z-index:-1;
+    }
+
+    .pohon {
+        width:1920px;
+        height:1080px;
+        right:0px;
+        bottom:0px;
+    }
+
+    .tanah {
+        width:100%;
+        bottom:0px;
+        height:276.56px;
+        z-index:-1;
+    }
+
+    .rumput {
+        width:310.564px;
+        height:116px;
+        bottom:0px;
+    }
+
+    .rumput_kiri {
+        left:0px;
+    }
+
+    .rumput_kanan {
+        right:0px;
+    }
+
+    /* Isi */
+    .isi {
+        cursor:context-menu;
+        position:relative;
+        width:756px;
+        height:575px;
+        top:380px;
+        left:104px;
+    }
+
+    .sub_judul {
+        font-family: 'Bentham';
+        font-size:64px;
+        width: 362px;
+        height: 81px;
+        line-height:77px;
+    }
+
+    .judul {
+        top:467px;
+        width: 756px;
+        height: 82px;
+        font-family: 'Bentham';
+        font-weight: 400;
+        font-size: 128px;
+        line-height: 154px;
+        display: flex;
+        align-items: center;
+    }
+
+    .keterangan {
+        width:541px;
+        height:362px;
+        font-family:'Times New Roman', Times, serif;
+        font-size:24px;
+        line-height:32px;
+        letter-spacing:0.005em;
+        margin-top:22px;
+    }
+    /* ISI */
+    
+    /* Tampilan Kedua */
+    .tahapan_desain {
+        display:flex;
+        width:auto;
+        height:1080px;
+        flex-direction:column;
+        background-color:#FCFBCA;
+    }  
+
+    .tahapan_desain_judul {
+        width:1300px; 
+        height:182px;
+        padding-top:86px;
+        text-align:center;
+        align-self:center;
+    }
+
+    .tahapan_desain_judul h1 {
+        color:black;
+        font-size:76px;
+        font-family:Bentham;
+        margin-top:0px;
+        margin-bottom:27px; 
+    }
+    
+    .isi_penjelas {
+        font-size:32px;
+        color:black;
+    }
+    
+    .tahapan_0 {
+        display:flex;
+        height:723px;
+        background-color:#D5E6AC;
+        margin-top:89px;
+        z-index:1;
+        justify-content: center;
+    }
+
+    .rel {
+        margin:0 50px;
+    }
+    
+    .tahapan_1_judul, .tahapan_2_judul, .tahapan_3_judul {
+        color:black;
+        font-size:40px;
+        font-family:yrsa;
+    }
+
+    .tahapan_1_penjelasan, .tahapan_2_penjelasan, .tahapan_3_penjelasan {
+        width:470px;
+        font-size:28px;
+        color:black;
+    }
+    .rel img{
+        width:472px;
+        height:265px;
+        margin-top:101px;
+    }
+    /* Tampilan Kedua */
+
+    /* Footer */
+    footer {
+        background:#1E1E1E;
+        width:100%;
+        display:flex;
+        justify-content:center;
+        text-align:center;
+        font-family:Artifika;
+        font-size: 26px;
+        color:rgb(229, 229, 229);
+    }
+    /* Footer */
